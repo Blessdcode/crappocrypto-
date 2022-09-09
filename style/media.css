@@ -1,0 +1,397 @@
+@media (max-width: 799px) {
+
+    /* width */
+    ::-webkit-scrollbar {
+        width: 5px;
+    }
+
+    .right_nav {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        right: -70rem;
+        top: 0;
+        overflow: hidden;
+        background: var(--footer_color);
+        z-index: 9999;
+        flex-direction: column;
+        justify-content: center;
+        transition: 1s;
+        align-items: center;
+        text-align: center;
+    }
+
+    .right_nav ul li {
+        display: block;
+        margin-top: 40px;
+        list-style-type: none;
+    }
+
+    .right_nav ul li a {
+        text-decoration: none;
+        color: var(--white_color);
+        text-transform: capitalize;
+        font-size: 1.5rem;
+        font-weight: 300;
+        transition: .3s ease;
+    }
+
+    .right_nav .buttons {
+        flex-direction: column;
+    }
+
+    .feature_left .feature_main p {
+        width: 21rem;
+        /* animation-delay: 3s; */
+    }
+
+    .right_nav .buttons .nl_btn {
+        font-size: 1.5rem;
+        margin-bottom: 48px;
+    }
+
+    .buttons span {
+        display: none;
+    }
+
+    .right_nav .buttons .m_btn {
+        font-size: 1.2rem;
+        padding: 18px 48px;
+    }
+
+    #menuBtn {
+        display: block;
+    }
+
+    #feature {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 6vw;
+    }
+
+    .feature_right {
+        width: 100%;
+        height: 70%;
+        display: block;
+        margin-top: 48px;
+    }
+
+    .feature_left {
+        width: 100%;
+        padding-right: 20px;
+        /* animation: slideIn 3s 0s 1; */
+        transition: 2s ease-in;
+    }
+
+    .feature_left .feature_main .tried {
+        font-size: 2.567rem;
+        font-weight: 700;
+        line-height: 56px;
+        margin: 0;
+        width: 36.875rem;
+        color: var(--white_color);
+        /* animation-delay: 2s; */
+    }
+
+    .feature_left .feature-top-btn {
+        height: 4rem;
+        width: 170px;
+        left: 120px;
+        top: 647px;
+    }
+
+    .feature_left .feature-top-btn .get_started {
+        text-decoration: none;
+        color: var(--white_color);
+        font-size: 0.9rem;
+        font-weight: 500;
+    }
+
+    #feature .base {
+        position: absolute;
+        left: 18rem;
+        bottom: 0rem;
+        z-index: -555;
+        /* display: none; */
+    }
+
+    #feature .base2 {
+        position: absolute;
+        top: 15rem;
+        right: -50px;
+        /* display: none; */
+    }
+
+    .reveal_container {
+        flex-direction: column;
+        align-items: center;
+        gap: 7rem;
+        width: 100%;
+        margin-top: 5rem;
+    }
+
+    .why_crappo {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* margin: 0 auto;
+        padding: 1vw 8vw;
+        gap: 4.375rem;
+        margin-top: 6.25rem;
+        position: relative; */
+    }
+
+    .feature-contd-pic img {
+        /* width: 100%; */
+        /* height: 380px; */
+    }
+
+    .cyrpto_container {
+        background-color: #fff;
+        height: 100%;
+        width: 100%;
+        position: relative;
+    }
+
+    .check-section h4 {
+        font-size: 1.357rem;
+        margin-top: 6.25rem;
+    }
+
+    .check-section p {
+        font-size: .956rem;
+        width: 90%;
+        margin-top: 1rem;
+        margin-bottom: 3.5rem;
+    }
+
+    .crypto_calculator {
+        width: 70%;
+        background-color: #fff;
+        position: relative;
+        top: -2rem;
+        left: 0%;
+        margin-top: 1.2rem;
+    }
+
+    .input_cal {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: 1rem;
+    }
+
+    .input_cal input {
+        width: 15.1875rem;
+    }
+
+    .input_cal button {
+        height: 3rem;
+        width: 150px;
+    }
+
+    .estimate p.revenue {
+        font-size: 0.95rem;
+        line-height: 0;
+        margin: 3rem 0 1rem 1rem;
+    }
+
+    .estimate h1 {
+        font-size: 1.8rem;
+        line-height: 44px;
+        margin-left: 1rem;
+    }
+
+    .estimate p.mining {
+        color: #828282;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0.01em;
+        text-align: left;
+        margin: 1.1234rem 0 3rem 1rem;
+    }
+
+    .crypto_cards h2 {
+        font-size: 1.8rem;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: 0em;
+        text-align: center;
+        max-width: 22.3125rem;
+        margin: 0 auto;
+        color: #0D0D2B;
+    }
+
+    .crypto_cards .cards {
+        margin-top: 4rem;
+        display: flex;
+        flex-wrap: wrap;
+        /* flex-direction: column; */
+        /* margin-bottom: 2rem; */
+    }
+
+
+    .feature-contd {
+        padding: 60px 10px 50px 30px;
+        /* 104px 0px 50px 0px */
+
+    }
+
+    .feature_section {
+        width: 100%;
+        min-width: 0;
+        height: 100%;
+        /* justify-content: space-between; */
+        align-items: center;
+        padding-left: 19px;
+        gap: 9rem;
+        flex-direction: column;
+        margin: 10vw 0px;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+
+    .feature-contd h1 {
+        font-size: 1.5rem;
+        width: 22.375rem;
+        line-height: 1.8888rem;
+        margin-bottom: 1rem;
+        margin-top: 2.5rem;
+    }
+
+    .feature-sect-head {
+        font-size: 1.5rem;
+        font-weight: 600;
+        min-width: 10.5554rem;
+        line-height: 28px;
+    }
+
+    .feature-sect-body {
+        font-size: .89rem;
+        font-weight: 400;
+        line-height: 25px;
+        /* width: 22.5rem; */
+        width: 80%;
+        margin: 1rem 0;
+    }
+
+    .try-us {
+        display: flex;
+        justify-content: flex-start;
+        width: 90%;
+        height: 16.567rem;
+        margin: 3rem auto;
+        gap: 1.875rem;
+        padding: 1.5rem;
+        flex-direction: column;
+        align-content: flex-start;
+        text-align: start;
+    }
+
+    .mining h2 {
+        font-size: 1.5rem;
+        font-weight: 700;
+        letter-spacing: 0em;
+        padding: 0;
+    }
+
+    .mining p {
+        font-size: 1rem;
+        line-height: 1.8rem;
+        margin-top: 14px;
+    }
+
+    .try-us .input {
+        text-align: start;
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    /* .try-us-container{
+        width: 0;
+    } */
+
+    .try-us input {
+        width: 18.375rem;
+        margin-left: 35px;
+    }
+
+    .try-us button {
+        height: 50px;
+        width: 145px;
+        padding: 14px 32px 14px 32px;
+        margin-top: 1rem;
+        margin-left: 35px;
+    }
+
+    .try-us-container .lshape {
+        left: -12%;
+    }
+
+    .footer_top {
+        flex-direction: column;
+        width: 100%;
+        gap: 3rem;
+        align-items: baseline;
+        justify-content: center;
+    }
+
+    footer {
+        width: 100%;
+        padding: 3.5rem 0 10px 3rem;
+        align-items: center;
+    }
+
+    .footer_bottom {
+        flex-direction: column;
+        justify-content: center;
+        align-items: baseline;
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+    }
+
+    .footer_images {
+        flex-direction: column;
+        gap: 1rem;
+        margin-top: 1.5rem;
+        width: 20%;
+        /* cursor: pointer; */
+    }
+
+    .footer_images img {
+        width: 100%;
+    }
+
+    .social-logos img {
+        margin-right: 30px;
+        cursor: pointer;
+        transition: .3s;
+        margin-top: 30px;
+    }
+
+    .footer_bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    .dshape {
+        display: none;
+        left: -2rem;
+
+    }
+
+    .lshape {
+        display: none;
+    }
+
+    .ushape {
+        display: none;
+    }
+
+}
